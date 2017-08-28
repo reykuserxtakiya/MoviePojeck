@@ -19,10 +19,6 @@ import shofi.pertama.android.shofipopulermovi.model.Movie;
 import shofi.pertama.android.shofipopulermovi.util.Constant;
 import shofi.pertama.android.shofipopulermovi.util.retrofit.RetrofitApi;
 
-/**
- * Created by alodokter-it on 18/06/17 -- DetailActivity.
- */
-
 public class DetailActivity extends AppCompatActivity {
     @BindView(R.id.detail_poster)
     ImageView mDetailPoster;

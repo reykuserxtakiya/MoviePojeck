@@ -7,10 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 
 import shofi.pertama.android.shofipopulermovi.R;
 
-/**
- * Created by alodokter-it on 16/06/17 -- SplashActivity.
- */
-
 public class SplashActivity extends AppCompatActivity {
 
     @Override
