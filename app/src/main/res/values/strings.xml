@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Popular Movies Udacity 1</string>
+    <string name="app_name">Popular Movies</string>
     <string name="popular_movies">Most Popular</string>
     <string name="top_rated_movies">Highest Rated</string>
     <string name="detail_poster_description">Detail Poster Thumbnail</string>
@@ -11,9 +11,9 @@
     <string name="detail_rating_title">Rating</string>
     <string name="detail_rating_default">8 of 10</string>
     <string name="detail_release_title">Release Date</string>
-    <string name="detail_release_default">Release on July 24th, 2017</string>
+    <string name="detail_release_default">Release on Agustus 24th, 2017</string>
     <string name="detail_rating_of"> of 10</string>
     <string name="popular_movies_title">Popular Movies Udacity</string>
-    <string name="splash_creator">Created by Ar Firman Syahputra</string>
+    <string name="splash_creator">2017 - Muhamad Shofi Fuadi</string>
     <string name="error_text">Internet Connection Problem. \n Please try again.</string>
 </resources>

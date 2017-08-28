@@ -10,7 +10,8 @@
         android:layout_height="96dp"
         android:layout_centerInParent="true"
         android:contentDescription="@string/splash_icon_description"
-        android:src="@mipmap/ic_movies" />
+        android:src="@mipmap/ic_movies"
+        />
 
     <TextView
         android:id="@+id/splash_title"
