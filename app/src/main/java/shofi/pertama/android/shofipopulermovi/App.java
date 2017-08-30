@@ -11,9 +11,6 @@ import shofi.pertama.android.shofipopulermovi.util.retrofit.RetrofitApi;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * Created by alodokter-it on 16/06/17 -- App.
- */
 
 public class App extends Application {
     private static App instance;

@@ -17,4 +17,5 @@
     <string name="splash_creator">2017 - Muhamad Shofi Fuadi</string>
     <string name="error_text">Internet Connection Problem. \n Please try again.</string>
     <string name="list_movies">List Movies</string>
+    <string name="MyFavorite">MyFavorite</string>
 </resources>

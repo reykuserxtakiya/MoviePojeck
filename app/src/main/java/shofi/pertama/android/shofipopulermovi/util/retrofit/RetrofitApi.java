@@ -6,9 +6,6 @@ import retrofit2.http.GET;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
 
-/**
- * Created by alodokter-it on 16/06/17 -- RetrofitApi.
- */
 
 public interface RetrofitApi {
     String BASE_URL = "https://api.themoviedb.org/3/";

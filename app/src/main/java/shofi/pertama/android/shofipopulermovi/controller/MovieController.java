@@ -41,4 +41,7 @@ public class MovieController {
     public void getTopRatedMovies(int page) {
         getMovies(1, page);
     }
+
+    public void getMyFavorite(int page) { getMovies(2, page);    }
+
 }

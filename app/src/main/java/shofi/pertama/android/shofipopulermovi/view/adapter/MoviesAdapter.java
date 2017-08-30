@@ -20,9 +20,6 @@ import shofi.pertama.android.shofipopulermovi.util.Constant;
 import shofi.pertama.android.shofipopulermovi.util.retrofit.RetrofitApi;
 import shofi.pertama.android.shofipopulermovi.view.activity.DetailActivity;
 
-/**
- * Created by alodokter-it on 16/06/17 -- MoviesAdapter.
- */
 
 public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MoviesViewHolder> {
     private ArrayList<Movie> movies;

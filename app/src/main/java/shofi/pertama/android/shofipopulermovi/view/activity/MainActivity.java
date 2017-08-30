@@ -89,6 +89,12 @@ public class MainActivity extends AppCompatActivity {
                 page = 1;
                 setTopRatedMovies(page);
                 break;
+            case R.id.MyFavorite:
+                errorLayout.setVisibility(View.GONE);
+                adapter.setData(new ArrayList<Movie>());
+                loadingBar.setVisibility(View.VISIBLE);
+                page = 1;
+                setMyFavorite(page);
             default:
                 break;
         }
@@ -107,6 +113,13 @@ public class MainActivity extends AppCompatActivity {
 
         this.page = page;
         controller.getPopularMovies(page);
+    }
+
+    private void setMyFavorite(int page){
+        MainActivity.this.setTitle(getString(R.string.MyFavorite));
+
+        this.page = page;
+        controller.getMyFavorite(page);
     }
 
     @Override
